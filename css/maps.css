@@ -1,0 +1,97 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: bolden;
+    src: url(./aset/Inter-Bold.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: light;
+    src: url(./aset/Inter-Regular.otf);
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+/* Banner */
+.banner{
+    width : 100%;
+    height: 500px;
+
+    background-image   : url('../assets/banner.PNG');
+    background-size    : cover ;
+    background-position: center;
+}
+
+.banner h1{
+    text-align: center;
+    color     : #fff;
+    font-size : 40px  ;
+
+    margin-bottom: 10px ;
+    padding-top  : 125px;
+}
+
+.banner p{
+    text-align: center  ;
+    color     : #fff  ;
+    font-size : 25px    ;
+    font-weight: lighter;
+}
+
+/* Article */
+.article-top-details{
+    height: 250px;
+    width : 100% ;
+
+    background-color: #000;
+}
+
+.article-top-details h1{
+    text-align: center;
+    color     : #fff;
+    font-size : 40px  ;
+
+    margin-bottom: 10px ;
+    padding-top  : 50px;
+}
+
+.article-top-details p{
+    text-align: center  ;
+    color     : #fff  ;
+    font-size : 25px    ;
+    font-weight: lighter;
+}
+
+.article-bottom-details{
+    width : 100%;
+    height: 600px;
+}
+
+.article-bottom-details h1{
+    color     : #fff  ;
+    font-size : 50px    ;
+
+    padding-top : 400px;
+    padding-left: 100px;
+}
+
+.article-top-bottom{
+    background-image   : url('../assets/img2.png');
+    background-size    : cover ;
+    background-position: center;
+}
+
+.article-bottom-bottom{
+    background-image   : url('../assets/img.png');
+    background-size    : cover ;
+    background-position: center;
+}

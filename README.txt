@@ -1,0 +1,1 @@
+Untuk membuka website, buka folder html -> home.html

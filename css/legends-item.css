@@ -1,0 +1,258 @@
+@font-face{
+    font-family: Apex;
+    src: url(../assets/Apex\ Regular.otf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&family=Inter&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav img {
+    padding-bottom: 2px;
+    width: 95px;
+    height: 95px;
+    float: left;
+}
+
+nav {
+    z-index: 100;
+    height: 65px;
+    display: flex;
+    background-color: black;
+    padding: 0 4vw;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    float: right;
+}
+
+nav ul li {
+    padding-top: 4px;
+    list-style: none;
+}
+
+nav ul li a {
+    letter-spacing: 1px;
+    margin-left: 2vw;
+    font-family: Apex;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color:#FF1D1D
+}
+
+nav a.button {
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 6px 6px;
+    padding-bottom: 1.5px;
+    color: #FF1D1D !important;
+}
+
+.active {
+    color: #FF1D1D;
+    border-bottom: 3px solid #ff1100;
+    width: 50%;
+}
+
+nav a.button:hover {
+    border: 2px solid #A40A0A;
+    color: #A40A0A !important;
+}
+
+section {
+    background-image: url(../assets/background.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-desc {
+    margin-top: -200px;
+    align-items: center;
+    float: right;
+}
+
+.hero-img {
+    max-width: 600px; 
+    max-height: 800px; 
+    object-fit: cover;
+    object-position: 0 -50%;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Changa', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+h3 {
+    font-family: 'Changa', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+p {
+    padding-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+  
+.desc {
+    align-items: center;
+    display: flex;
+
+}
+  
+.desc h1 {
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    width: 100%;
+}
+  
+.hero-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+/* Footer Container */
+
+footer {
+    background-color: #2D2C2C;
+    padding: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.join-con{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.sosmed {
+    align-items: left;
+    margin-left: 5%;
+    padding-top: 20px;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+.sosmed {
+    margin-top: 10px;
+    border-top: 3px solid #ff1100;
+    justify-content: space-between;
+}
+
+.join-con h2 {
+    align-items: left;
+    margin-left: 6%;
+    font-family: Apex;
+    font-size: 28px;
+    color: white;
+    font-weight: 70;
+}
+
+.col2 {
+    margin-top: -70px;
+}
+
+.join-con .sosmed img {
+    padding: 5px 5px;
+    padding-left: 20px;
+}
+
+.join-con .sosmed img:hover {
+transform: scale(1.25);
+}
+
+.adex-fot {
+    position: relative;
+    flex-direction: wrap;
+    float: right;
+    height: 150px;
+    width: 150px;
+    margin-right: -10px;
+    margin-top: -40px;
+    transform: none !important;
+}
+
+.bj-fot {
+    float: right;
+    height: 100px;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: -20px;
+    margin-right: -10px;
+    transform: none !important;
+}
+.warning {
+    margin-top: 60px;
+    display: flex;
+    float: right;
+    margin-right: 12vh;
+    transform: none !important;
+}
+/* Footer Copy Right */
+.footer-cr{
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    align-content: center;
+    background-color: black;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-text{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(231, 231, 231);
+    padding-top: 13px;
+}
+/* End Footer Container */
